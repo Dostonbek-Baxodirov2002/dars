@@ -12,7 +12,6 @@ body {
     font-size: 18px;
     line-height: 28px ;
     color: #242A45;
-    margin-left: 165px;
 }
 .container {
     max-width: 1440px;
@@ -68,8 +67,8 @@ a {
 }
 /*hero*/
 .hero {
-    margin-left: 50px;
-    margin-right: 100px;
+    /* margin-left: 50px;
+    margin-right: 100px; */
     margin-bottom: 180px;
 }
 .hero-container {
@@ -163,6 +162,7 @@ a {
 .section2-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 175px;
 }
 .click {
     width: 445px;
@@ -179,7 +179,7 @@ h3 {
     letter-spacing: -0.10000000149011612px;
 }
 .button {
-    padding: 5px 15px;
+    padding: 10px 24px;
     font-family: Rubik;
     font-size: 14px;
     font-style: normal;
@@ -190,4 +190,23 @@ h3 {
     background-color: #5267DF;
     border: none;
     border-radius: 5px;
+}
+
+.section3-container {
+    text-align: center;
+    width: 700px;
+    margin-bottom: 48px;
+}
+h4 {
+    font-family: "Rubik";
+    font-size: 32px;
+    line-height: 52px;
+    letter-spacing: -0.1px;
+}
+.p4 {
+    Font family: "Rubik";
+    Font style: "Regular";
+    Font size: 18px;
+    Line height: 28px;
+    Line height: 131%;
 }
