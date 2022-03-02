@@ -68,8 +68,6 @@ a {
 }
 /*hero*/
 .hero {
-    /* margin-left: 50px;
-    margin-right: 100px; */
     margin-bottom: 180px;
 }
 .hero-container {
@@ -156,9 +154,6 @@ a {
     margin-right: 60px;
     border-bottom: 4px solid #FA5959;
 }
-.clear {
-    clear: both;
-}
 
 .section2-container{
     display: flex;
@@ -209,24 +204,26 @@ h4 {
     Line height: 131%;
 }
  
-
-.section4-container {
-}
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 li {
     width: 280px;
+    height: 371px;
     padding: 30px 0;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
+    list-style-type: none;
 }
 .imglar {
     text-align: center;
+    margin-bottom: 32px;
 }
 h5 {
+    margin: 0;
+    margin-bottom: 6px;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -237,7 +234,7 @@ h5 {
 .p5 {
     margin-top: 0;
     padding: 0;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -257,13 +254,14 @@ h5 {
     background-color: #fff;
     color: #5267DF;
 }
-.li1 {
-    margin-bottom: 80px;
-}
 .li2 {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-left: 34px;
 }
 .li3 {
     margin-top: 80px;
+    margin-left: 37px;
+}
+.nuqta {
+    margin-bottom: 35px;
 }
