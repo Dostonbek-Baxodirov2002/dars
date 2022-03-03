@@ -150,6 +150,9 @@ a {
     color: #242A45;
     
 }
+.linklar:hover {
+    color: #fa5959;
+}
 .rang {
     margin-right: 60px;
     border-bottom: 4px solid #FA5959;
@@ -182,8 +185,14 @@ h3 {
     letter-spacing: 0.25px;
     color: #fff;
     background-color: #5267DF;
-    border: none;
+    border: 1px solid;
+    border-color:  #5267DF;
     border-radius: 5px;
+}
+.button:hover {
+    border-color: #242A45;
+    color: #242A45;
+    background-color: #f7f7f7;
 }
 
 .section3-container {
@@ -264,4 +273,59 @@ h5 {
 }
 .nuqta {
     margin-bottom: 35px;
+}
+
+
+.askid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h6 {
+    margin-bottom: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.p6 {
+    width: 500px;
+    margin-bottom: 0;
+    padding-bottom: 56px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #242A45;
+    border-bottom: 1px solid  #242A45;
+    opacity: 0.5;
+    text-align: center;
+}
+.question-on{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+.questions {
+    padding: 5px 0;
+    color: #242A45;
+    border-bottom: 1px solid #242A45 ;
+}
+.questions:hover {
+    color: #fa5959;
+}
+.more {
+    padding: 15px 24px;
+    border: 1px solid;
+    border-color: #5267DF;
+    background-color: #5267DF;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.more:hover {
+    border-color: #242A45;
+    color: #242A45;
+    background-color: #f7f7f7;
 }
